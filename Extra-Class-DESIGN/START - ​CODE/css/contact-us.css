@@ -1,0 +1,153 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  background: teal;
+  justify-content: space-between;
+}
+
+nav div img {
+  width: 70px;
+}
+
+nav ul {
+  display: flex;
+  width: 30%;
+  justify-content: space-around;
+}
+
+nav ul a {
+  padding: 5px 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  background: orange;
+  text-decoration: none;
+  color: black;
+}
+
+nav ul a li {
+  list-style: none;
+}
+
+nav ul a:hover {
+  background: darkorange;
+  color: white;
+}
+
+.contact-us-container {
+  width: 100%;
+  height: 90vh;
+  background-image: url(/images/bg2.jpg);
+  display: flex;
+}
+
+.contact-us-container .contact-us-content {
+  width: 50%;
+  height: 90vh;
+  color: white;
+  background: rgba(50, 50, 50, 0.468);
+}
+
+.contact-us-container .contact-us-content .content {
+  width: 60%;
+  margin: 120px 80px;
+}
+
+.contact-us-container .contact-us-content .content h1 {
+  font-size: 70px;
+  margin-bottom: 20px;
+}
+
+.contact-us-container .contact-us-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 90vh;
+  color: white;
+  background: rgba(50, 50, 50, 0.468);
+}
+
+.contact-us-container .contact-us-form form {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  width: 50%;
+  background: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.contact-us-container .contact-us-form form h2 {
+  color: teal;
+}
+
+.contact-us-container .contact-us-form form .username,
+.contact-us-container .contact-us-form form .passwords,
+.contact-us-container .contact-us-form form .email,
+.contact-us-container .contact-us-form form .gender,
+.contact-us-container .contact-us-form form .date,
+.contact-us-container .contact-us-form form .subject,
+.contact-us-container .contact-us-form form .file,
+.contact-us-container .contact-us-form form .fruit,
+.contact-us-container .contact-us-form form button {
+  margin: 10px 0px;
+}
+
+.contact-us-container .contact-us-form form h2 {
+  text-align: center;
+}
+
+.contact-us-container .contact-us-form form .username,
+.contact-us-container .contact-us-form form .passwords {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-us-container .contact-us-form form .username input,
+.contact-us-container .contact-us-form form .passwords input {
+  width: 48%;
+  padding: 3px 0px;
+}
+
+.contact-us-container .contact-us-form form .email input {
+  width: 99%;
+  padding: 3px 0px;
+}
+
+.contact-us-container .contact-us-form form .gender,
+.contact-us-container .contact-us-form form .subject {
+  display: flex;
+}
+
+.contact-us-container .contact-us-form form .genders input,
+.contact-us-container .contact-us-form form .subjects input {
+  font-size: 2px;
+}
+
+.contact-us-container .contact-us-form form .fruit {
+  padding: 3px 0px;
+}
+
+.contact-us-container .contact-us-form form label {
+  margin-right: 10px;
+}
+
+.contact-us-container .contact-us-form form button {
+  background: teal;
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+}

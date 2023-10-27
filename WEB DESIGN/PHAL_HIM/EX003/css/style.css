@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th,td{
+    border: 1px solid black;
+    padding: 10px;
+
+}
+th{
+background-color: aqua;
+color: white;
+text-align: left;
+}
+caption{
+    background-color: aqua;
+    color: white;
+    padding: 10px;
+   
+}
+

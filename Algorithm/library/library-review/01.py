@@ -1,0 +1,10 @@
+import tkinter as tk
+root = tk.Tk()
+root.geometry("600x600")
+frame = tk.Frame()
+frame.master.title("Good Morning")
+canvas = tk.Canvas(frame)
+canvas.create_rectangle(150, 20, 20,150, fill="#CD5C5C")
+canvas.pack(expand=True, fill="both")
+frame.pack(expand=True, fill="both")
+root.mainloop()

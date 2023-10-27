@@ -1,0 +1,21 @@
+.about-container {
+  padding: 20px 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  h3,
+  p,
+  img {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .group-service {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+}
+

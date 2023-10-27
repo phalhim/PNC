@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+}
+
+/* nav  */
+nav {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid black;
+}
+
+.nav-top {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-bottom: 1px solid black;
+}
+
+.nav-top .logo img {
+    width: 125px;
+    border-radius: 50%;
+    border: 2px solid orange;
+
+}
+
+.nav-top .menu ul li {
+    background: rgb(5, 195, 195);
+    color: white;
+    padding: 5px 90px;
+    border: 2px solid rgb(5, 195, 195);
+    border-radius: 7px;
+    margin: 10px 0px;
+    list-style: none;
+    font-weight: bold;
+}
+
+.nav-top .menu ul li:hover {
+    background: teal;
+    border: 2px solid orange;
+}
+
+.nav-bottom {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.nav-bottom-left img {
+    width: 50%;
+    height: 15vh;
+    border: 2px solid #ff1a66;
+
+}
+
+.nav-bottom-right {
+
+    font-size: 15px;
+    /* background-color: aquamarine; */
+}
+
+
+/* main container */
+.main-container {
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+}
+
+/* header */
+header {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+#header-img-left {
+    width: 250px;
+    height: 130px;
+
+}
+
+#header-img-right {
+    width: 125px;
+    height: 125px;
+}
+
+/* main */
+main {
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-top {
+    flex: 1;
+    display: flex;
+}
+
+.main-top-img {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.main-top-img img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.main-top-content {
+    flex: 1.5;
+    padding: 20px;
+}
+
+.main-top-content p {
+    text-align: justify;
+}
+
+.main-bottom {
+    background: rgb(200, 2, 200);
+    flex: 1;
+
+}
+
+.main-bottom img {
+    width: 100%;
+}

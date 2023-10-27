@@ -1,0 +1,12 @@
+@mixin content-centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin stardard-text{
+    text-transform: uppercase;
+    font-style: 25px;
+    font-weight: bold;
+    color: white;
+}

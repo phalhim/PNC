@@ -1,0 +1,18 @@
+body{
+        background-image:url(../download.jpg);
+}
+table,th, td{
+        border: 2px solid white;
+        border-collapse: collapse;
+        background-color: green;
+        
+}
+ul{
+        display: flex;
+        list-style-type: none;
+        background-color: blue;
+        color: red;
+}
+li{
+        margin-left: 50px;
+}

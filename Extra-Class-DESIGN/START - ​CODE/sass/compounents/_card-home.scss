@@ -1,0 +1,35 @@
+.card {
+    width: 23%;
+    height: 150px;
+    background: purple;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    border: 1px solid black;
+    .card-header {
+      flex: 1;
+      text-align: center;
+      color: white;
+    }
+    .card-body {
+      padding: 10px;
+      flex: 2.5;
+      background: white;
+    }
+    .card-footer {
+      @include display;
+      flex: 1.5;
+      justify-content: flex-end;
+      padding-right: 10px;
+      button {
+        padding: 5px 20px;
+        border: none;
+        border-radius: 5px;
+        font-weight: bold;
+        cursor: pointer;
+        background: teal;
+        color: white;
+      }
+    }
+
+  }

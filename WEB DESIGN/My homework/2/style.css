@@ -1,0 +1,83 @@
+header {
+    padding: 10px;
+    background-color: bisque;
+    /* to do */
+    /* 
+    display flex
+    direction ?
+    justify-content ?
+    align-items ? 
+    */
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+
+}
+
+#principal_title {
+    /* to do */
+    align-self: flex-end;
+}
+
+nav {
+    /* to do */
+    color: blue;
+}
+
+section {
+    /* display flex */
+    display: flex;
+}
+
+article {
+    border: 1px black solid;
+    margin: 5px 10px 5px 0px;
+    padding: 5px;
+
+    /* to do */
+    /* text justify */
+    text-align: justify;
+    /* to do */
+    /* 
+    display flex
+    flex-direction ?
+    align-items ?
+    **/
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+
+
+
+}
+
+aside {
+    background-color: salmon;
+    padding: 5px;
+}
+
+footer {
+    background-color: aquamarine;
+
+    /* to do */
+    /* 
+    display flex
+    justify-content ?
+    */
+    display: flex;
+    justify-content: space-between;
+}
+
+#social_media {
+    /* to do */
+    /* 
+    display flex
+    direction ?
+    justify-content ?
+    */
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+}

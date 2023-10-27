@@ -1,0 +1,86 @@
+header {
+    padding: 10px;
+    background-color: bisque;
+    /* to do */
+    /* 
+    display flex
+    direction ?
+    justify-content ?
+    align-items ? 
+    */
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   justify-content: space-around;
+}
+
+#principal_title {
+    /* to do */
+align-self: self-end;
+   
+}
+
+nav {
+    /* to do */
+    color: blue;
+    
+}
+
+section {
+    /* display flex */
+    display: flex;
+}
+
+article {
+    border: 1px black solid;
+    margin: 5px 10px 5px 0px;
+    padding: 5px;
+
+    /* to do */
+    /* text justify */
+   text-justify: auto;
+
+    /* to do */
+    /* 
+    display flex
+    flex-direction ?
+    align-items ?
+    **/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+aside {
+    background-color: salmon;
+    padding: 5px;
+}
+
+footer {
+    background-color: aquamarine;
+
+    /* to do */
+    /* 
+    display flex
+    justify-content ?
+    */
+    display: flex;
+    justify-content: space-between;
+    
+}
+#social_media {
+    /* to do */
+    /* 
+    display flex
+    direction ?
+    justify-content ?
+    */
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+   
+
+   
+
+}

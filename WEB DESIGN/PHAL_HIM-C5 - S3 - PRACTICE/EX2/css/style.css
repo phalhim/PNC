@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.rigth {
+    width: 40%;
+    background-color: palevioletred;
+    margin-top: 20px;
+    margin: 50px;
+}
+
+h1 {
+    width: 60%;
+    padding: 10px;
+    margin-left: 150px;
+    font-size: 20px;
+}
+
+.name {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.name input:nth-child(1) {
+    width: 100%;
+    flex: 1;
+    margin-right: 20px;
+}
+
+.name input:nth-child(2) {
+    width: 100%;
+    flex: 1;
+    margin-right: 20px;
+}
+
+.Email {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.Email input {
+    width: 90.5%;
+}
+
+.Password {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.Password input:nth-child(1) {
+    width: 100%;
+    flex: 1;
+    margin-right: 20px;
+}
+
+.Password input:nth-child(2) {
+    width: 100%;
+    flex: 1;
+    margin-right: 20px;
+}
+
+.Gender {
+    width: 100%;
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.meta {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.meta input {
+    width: 90.5%;
+}
+
+.Subject {
+    width: 80%;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.chosen {
+    background-color: aliceblue;
+    width: 92.5%;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.bt {
+    background-color: rgb(185, 181, 181);
+    width: 20%;
+    display: flex;
+    margin-top: 5px;
+    justify-content: center;
+    margin-left: 5px;
+    align-items: center;
+}
+
+.chosen button {
+    display: flex;
+    align-items: center;
+}
+
+.chosens {
+    width: 100%;
+}
+
+.chosens>select {
+    width: 92.5%;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.REOLSTCR {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+input {
+    padding: 12px;
+}
+
+button {
+    width: 97%;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(96, 107, 227);
+    margin-bottom: 10px;
+    color: white;
+}

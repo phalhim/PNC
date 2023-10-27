@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+.sign{
+     background-color:rgb(163, 10, 163); 
+    width: 49%;
+    margin: 50px 100px 0px 300px;
+}
+.button{
+    display: flex;
+    flex: 1;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+button{
+    width: 49.5%;
+    margin: 10px 0px;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+}
+button:nth-child(1){
+    background-color: rgb(161, 155, 87);
+    flex: 1;
+}
+button:nth-child(2){
+    background-color: rgb(15, 221, 111);
+    flex: 1;
+}
+h2{
+    font-weight: 200;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.firstname{
+    display: flex;
+    margin: 10px;
+    
+
+}
+.lastbutton{
+    background-color: rgb(179, 119, 9);
+    width: 97%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    font-weight: 400px;
+
+}
+input[type=text]:nth-child(1){
+    flex: 1;
+    margin-right: 5px;
+    padding: 6px;
+    margin-bottom: 10px;
+    background-color: rgb(42, 24, 24);
+    border-color: white;
+    border-radius: 4px;
+}
+input[type=text]:nth-child(2){
+    flex: 1;
+    margin-bottom: 10px;
+    background-color: rgb(42, 24, 24);
+    border-color: white;
+    border-radius: 4px;
+}
+input::placeholder{
+    color: gray;
+}
+input[type=email]{
+    width: 96%;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    padding: 5px;
+    background-color: rgb(42, 24, 24);
+    border-color: white;
+    border-radius: 4px;
+}
+input[type=password]{
+    width: 96%;
+    margin-left: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: rgb(42, 24, 24);
+    border-color: white;
+    border-radius: 4px;
+}

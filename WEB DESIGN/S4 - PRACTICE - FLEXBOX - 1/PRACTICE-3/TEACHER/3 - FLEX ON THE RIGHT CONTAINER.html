@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .container {
+        width: 100%;
+        background-color: #25384b;
+        padding: 20px;
+        display: flex;
+        justify-content: space-around;
+      }
+
+      .left-container {
+        width: 60%;
+        background-color: #a3cfcc;
+        height: 320px;
+      }
+
+      .right-container {
+        width: 300px;
+        background-color: #f7cfb6;
+        height: 320px;
+        /* New rules: */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+
+      .child-element {
+        width: 240px;
+        height: 100px;
+        box-sizing: border-box;
+        background-color: #86c2de;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left-container">Left container</div>
+      <div class="right-container">
+        <div class="child-element">Banner 1</div>
+        <div class="child-element">Banner 2</div>
+      </div>
+    </div>
+  </body>
+</html>

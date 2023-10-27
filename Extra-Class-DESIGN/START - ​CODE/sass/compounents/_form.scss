@@ -1,0 +1,113 @@
+.contact-us-container {
+    width: 100%;
+    height: 90vh;
+    background-image: url(/images/bg2.jpg);
+    display: flex;
+
+    .contact-us-content {
+        width: 50%;
+        height: 90vh;
+        color: white;
+        background: rgba(50, 50, 50, 0.468);
+
+        .content {
+            width: 60%;
+            margin: 120px 80px;
+
+            h1 {
+                font-size: 70px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+    .contact-us-form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: 90vh;
+        color: white;
+        background: rgba(50, 50, 50, 0.468);
+
+        form {
+            font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+            width: 50%;
+            background: white;
+            color: black;
+            display: flex;
+            flex-direction: column;
+            padding: 10px 20px;
+            border-radius: 10px;
+
+            h2 {
+                color: teal;
+            }
+
+            h2 {
+                text-align: center;
+            }
+
+            button {
+                margin: 10px 0px;
+            }
+
+            .username,
+            .passwords {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .username input,
+            .passwords input {
+                width: 48%;
+                padding: 3px 0px;
+            }
+
+            .email input {
+                width: 99%;
+                padding: 3px 0px;
+            }
+
+            .gender,
+            .subject {
+                display: flex;
+
+                label {
+                    margin-right: 10px;
+                }
+            }
+
+            .genders input,
+            .subjects input {
+                font-size: 2px;
+            }
+
+            .fruit {
+                padding: 3px 0px;
+            }
+
+            button {
+                background: teal;
+                color: white;
+                border: none;
+                padding: 5px;
+                border-radius: 5px;
+            }
+        }
+
+        .username,
+        .passwords,
+        .email,
+        .gender,
+        .date,
+        .subject,
+        .file,
+        .fruit,
+        button {
+            margin: 10px 0px;
+        }
+    }
+
+}

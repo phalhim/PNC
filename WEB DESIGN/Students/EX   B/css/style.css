@@ -1,0 +1,27 @@
+body{
+    background:plum;
+}
+div{
+    margin: 0;
+    background-color: rgb(82, 206, 228);
+    border-radius: 10px;
+    padding-left: 20px;
+}
+h1{
+    color: white;
+    padding-left: 20px;
+}
+div p:nth-child(2){
+    padding-left: 20px;
+}
+div h1:nth-child(2){
+    padding-left: 20px;
+    
+    
+}
+span{
+    color: brown;
+}
+
+
+

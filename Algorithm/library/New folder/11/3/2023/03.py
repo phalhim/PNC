@@ -1,0 +1,10 @@
+import tkinter as tk
+root = tk.Tk()
+root.geometry("600x200")
+frame =tk.Frame()
+frame.master.title("Hello PNC")
+canvas =tk.Canvas(frame)
+canvas.create_oval(500, 500, 550, 550, fill="#000000")
+canvas.pack(expand=True, fill="both")
+frame.pack(expand=True, fill="both")
+root.mainloop()

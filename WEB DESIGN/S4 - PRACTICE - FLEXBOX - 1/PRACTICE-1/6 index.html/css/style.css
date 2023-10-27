@@ -1,0 +1,28 @@
+.container-flex {
+    width: 60%;
+    height: 700px;
+    display: flex;
+    margin: auto;
+    border: 5px solid black;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.flex-item {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+
+#flex-item-1 {
+    background: teal;
+}
+
+#flex-item-2 {
+    background: DarkSlateBlue;
+   align-self: center;
+}
+
+#flex-item-3 {
+    background: MidnightBlue;
+}

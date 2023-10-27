@@ -1,0 +1,24 @@
+@import 'button';
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #000;
+}
+
+.group-btns {
+    width: 50%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: auto;
+    margin-top: 100px;
+    border-left: 10px solid greenyellow;
+    border-radius: 20px;
+
+
+}

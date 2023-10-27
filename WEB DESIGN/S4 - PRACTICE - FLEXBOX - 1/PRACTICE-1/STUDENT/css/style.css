@@ -1,0 +1,82 @@
+.container-flex {
+    width: 60%;
+    height: 700px;
+    display: flex;
+    margin: auto;
+    border: 5px solid black;
+    /* to do  */
+    /*------ practice 1 ------ */
+    /* justify-content: space-evenly; */
+
+    /* justify-content: space-evenly; */
+
+    /*------ practice 2 ------*/
+    /* justify-content: center;
+    align-items: center; */
+    /* -----practice  1------ */
+    /* justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    align-items: flex-start; */
+    /* ------practice 2------ */
+    /* justify-content: center;
+    align-items: center; */
+    /* -----practice 3------ */
+    /* justify-content: center;
+    align-items: flex-end;
+    justify-content: space-between; */
+    /* -------practice 4----- */
+    /* flex-direction: column;
+    justify-content: space-between; */
+    /* ------practice 5----- */
+    /* align-items: center;
+   justify-content: flex-end; */
+   /* -----practice 6----- */
+    /* flex-direction: column;
+    justify-content: space-between; */
+    /* ------practice 7----- */
+    /* flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+   */
+   /* ------practice 8----- */
+   /* align-items: flex-end;
+   flex-direction: row-reverse;
+   justify-content: start; */
+   /* ----practice 9------ */
+   /* align-items: flex-end;
+   flex-direction: column-reverse; */
+   
+
+
+
+
+
+
+}
+
+.flex-item {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+
+#flex-item-1 {
+    background: teal;
+}
+
+#flex-item-2 {
+    background: DarkSlateBlue;
+    /* TO DO */
+    /* ----5---- */
+    /* align-self: start; */
+    /* -----6---- */
+   /* align-self: center; */
+   /* ------7----- */
+   /* align-self:center ; */
+
+}
+
+#flex-item-3 {
+    background: MidnightBlue;
+}

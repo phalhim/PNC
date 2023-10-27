@@ -1,0 +1,21 @@
+@import "main";
+.main-container {
+    height: 75vh;
+    display: flex;
+}
+
+aside {
+    @include content-centered;
+    @include stardard-text;
+    flex: 1;
+    background: $main-color;
+    border: 1px solid $primary-color;
+}
+
+.main-content {
+    @include content-centered;
+    @include stardard-text;
+    flex: 3;
+    background: $main-color;
+    border: 1px solid $primary-color;
+}

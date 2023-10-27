@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    /* Your code here */
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+
+    /* +++++add gap on row+++++  */
+    /* row-gap: 20px; */
+
+    /* +++++add gap on column+++++  */
+    /* column-gap: 20px; */
+
+    /* +++++add gap on row and column+++++  */
+    /* gap: 20px; */
+    grid-template-columns: 1fr 2fr;
+
+}
+
+.box {
+    height: 200px;
+    border: 1px solid #ccc;
+    background: #0642e6;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}

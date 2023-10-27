@@ -1,0 +1,29 @@
+body {
+    font-family: sans-serif;
+    background: #e9e5e5;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+h1 {
+    text-transform: uppercase;
+    font-size: 400;
+}
+.box {
+    width: 60%;
+    line-height: 1.5;
+    background-color: white;
+    padding: 10px;
+   
+}
+.border-red {
+    border-left: 5px solid red;
+}
+.border-green {
+    border-left: 5px solid green;
+}
+.border-orange {
+    border-left: 5px solid orange;
+ 
+}

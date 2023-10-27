@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 50%;
+    height: 30vh;
+    display: grid;
+    background-color: #21f321;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.container div {
+    border: 1px solid black;
+    background-color: palevioletred;
+}
+
+.header {
+    grid-column: 1/4;
+}
+
+.menu {
+    grid-row: 2/4;
+}
+
+.footer {
+    grid-column: 2/4;
+}
+
+.left {
+    grid-column: 1 /4;
+}

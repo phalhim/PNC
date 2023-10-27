@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: grid;
+    grid-template-rows: 0.1fr 2fr 1fr 1fr;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(255, 255, 255);
+    list-style: none;
+    font-size: 30px;
+    color: blue;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.logo li {
+    margin-left: 20px;
+}
+
+.home {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 20px;
+}
+
+main {
+    background-image: url(https://www.thekennelclub.org.uk/media/3267/toy.jpg?mode=crop&width=800&height=600&rnd=132188804840000000);
+    background-color: rgb(255, 255, 255);
+}
+
+.Read {
+    width: 30%;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+table,
+th,
+td {
+    border: 2px solid rgb(238, 0, 79);
+    margin-left: 20px;
+}
+
+.domestic {
+    margin-right: 20px;
+    text-align: center;
+}
+
+Form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 20px;
+    background-color: rgb(242, 209, 209);
+}
+
+label {
+    margin: 20px;
+}
+
+Form input {
+    display: grid;
+    width: 40%;
+    height: 5vh;
+    margin-left: 20px;
+}
+
+input,
+[type=submit] {
+    margin-left: auto;
+    margin-bottom: 20px;
+}
+
+Form>div {
+    padding: 20px;
+}
+
+ol,
+li {
+    margin: 10px;
+}

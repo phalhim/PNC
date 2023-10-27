@@ -1,0 +1,45 @@
+nav {
+  height: 10vh;
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 50px;
+  border-bottom: 2px solid orange;
+}
+nav .logo {
+  width: 55px;
+  height: 55px;
+  background: orange;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+nav .logo ul {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+nav .logo ul li {
+  background: orange;
+  padding: 10px 20px;
+  border: 1px solid white;
+  border-radius: 5px;
+  list-style-type: none;
+  cursor: pointer;
+}
+nav .logo ul li a {
+  color: white;
+  font-weight: bolder;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+nav .logo ul ul li:hover {
+  background: white;
+  border: 1px solid orange;
+  color: orange;
+}/*# sourceMappingURL=main.min.css.map */

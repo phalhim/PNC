@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0; 
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+header,
+.header-left,
+.header-right,
+nav,
+.container,
+.content,
+.sidebar-right,
+.tool-bar,
+.text,
+.icons,
+.main-post,
+.sub-post{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav {
+    flex:.25;
+    background: #da5959; 
+}
+
+header {
+    background: #ee6161;
+    flex:.5;
+}
+
+.header-left {
+    height: 100%;
+    background: #ec1111;
+    flex:1
+}
+.header-right {
+    height: 100%;
+    background: #d80f0f;
+    flex:2;
+}
+.container {
+    flex:3;
+    margin: 0px 50px;
+    justify-content: flex-start;
+    /* height: auto; */
+}
+.content{
+    flex:2;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.sidebar-right{
+    flex:1;
+    background: #aa4444;
+    height: 100%;
+}
+.tool-bar{
+    flex:0.25;
+    background: #c95252;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+.text {
+    background: #a40b0b;
+    flex:1;
+    height: 100%;
+    justify-content: flex-start;
+    padding: 10px;
+}
+.icons {
+    background: #820b0b;
+    flex:1;
+    height: 100%;
+    justify-content: flex-end;
+    padding: 10px;
+}
+.sub-post{
+    flex:3;
+    background: #c76868;
+    width: 100%;
+}
+.main-post {
+    display: flex;
+    flex:1.5;
+    width: 100%;
+    gap:10px;
+    padding: 10px;
+    background: #720707;
+}
+.post {
+    width: 50%;
+    height: 200px;
+    background: #575656;
+}
+.sub-post {
+    flex:2;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 8px;
+    background: #580707;
+    gap:10px;
+}
+.small-post {
+    display: flex;
+    flex-direction: column;
+    background: #a9a7a7;
+    height: 80px;
+    width: 100%;
+}
+.image {
+    flex:1;    
+    height: 100%;
+} 
+.description {
+    flex:2;
+    height: 100%;
+}
+
+

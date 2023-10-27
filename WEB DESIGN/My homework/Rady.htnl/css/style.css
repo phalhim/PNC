@@ -1,0 +1,18 @@
+body{
+    font-family: sans-serif;
+}
+ul{
+    list-style: none;
+    background: rgb(6, 248, 135);
+    margin: 0;
+    display: flex;
+}
+li{
+    padding: 15px;
+    text-transform: uppercase;
+    color: blue;
+    cursor: pointer;
+}
+li:hover{
+    background: palevioletred;
+}

@@ -1,0 +1,21 @@
+body{
+    background-color:bisque;
+}
+h1{
+    color: red;
+}
+h2{
+    color: red;
+}
+p{
+    color: red;
+}
+ul{
+    background-color: chartreuse;
+}
+li{
+    color: blue;
+}
+q{
+    font-family: fantasy;
+}

@@ -1,0 +1,42 @@
+nav{
+    display: flex;
+}
+.nav-us{
+    width: 50%;
+    // background-color: aqua;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.nav-us img {
+    width: 100px;
+    border-radius: 100px;
+    
+}
+.nav-us h1{
+    font-size: 40px;
+   padding-left: 20px;
+}
+.nav-user{
+    width: 50%;
+    // background-color: bisque;
+    
+}
+.nav-user ul  {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-user ul li {
+    width: 40%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // background-color: pink;
+
+}
+.nav-user ul li a{
+    font-size: 30px;
+    color:black;
+}

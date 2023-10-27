@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(202, 167, 24);
+}
+
+.count {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+.HTML {
+    width: 35%;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+
+.HTML i {
+    margin: 20px;
+}
+
+.text {
+    width: 30%;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 30px;
+}
+
+li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+.icons {
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+.icons i {
+    margin: 10px;
+}
+
+.com {
+    background-color: blue;
+    width: 70%;
+    height: 24vh;
+    margin-left: 15%;
+    margin-top: 20px;
+}
+
+.useicons {
+    display: flex;
+    align-items: end;
+    justify-content: flex-start;
+    justify-content: flex-end;
+    padding: 10px;
+    height: 10vh;
+}
+
+button {
+    width: 15%;
+}
+
+.useicon {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.leftright {
+    height: 70vh;
+    display: flex;
+}
+
+.left {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.right {
+    width: 70%;
+}
+
+.box1 {
+    background-color: rgb(255, 255, 255);
+    flex: 1;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+
+.Meet {
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.Generate input {
+    background-color: rgb(252, 252, 252);
+    width: 80%;
+    height: 3vh;
+    margin-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+span {
+    color: blue;
+}
+
+.box2 {
+    background-color: rgb(255, 255, 255);
+    flex: 1;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+
+.Class {
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.ai2pvt3 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+.box3 {
+    background-color: rgb(247, 247, 247);
+    flex: 2;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid rgb(217, 212, 212);
+    margin-right: 20px;
+}
+
+.Upcoming {
+    width: 90%;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    margin-top: 4px;
+    margin-left: 10px;
+}
+
+.Due-tomorrow {
+    width: 90%;
+    margin-left: 10px;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+.Due-tomorrows {
+    width: 90%;
+    margin-left: 10px;
+}
+
+.View-all {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 10vh;
+    font-size: 20px;
+}
+
+.Announce {
+    width: 100%;
+    height: 13vh;
+    background-color: rgb(248, 248, 248);
+    margin-top: 10px;
+    display: flex;
+    border-radius: 5px;
+}
+
+.Announces {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: safe;
+    margin-left: 10px;
+}
+
+.Announcesr {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 10px;
+}
+
+.Announcess {
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: safe;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.Announcesrs {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 10px;
+}
+.Announces i{
+    margin-right: 20px;
+}
+.Announcess i{
+    margin-right: 20px;
+}

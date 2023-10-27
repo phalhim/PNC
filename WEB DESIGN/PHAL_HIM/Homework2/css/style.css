@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+th,td{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+thead :nth-child(even){
+    background-color: aqua;
+
+}
+thead :nth-child(odd){
+    background-color: blue;
+}
+tbody tr:nth-child(even){
+   background-color:rgb(220, 214, 214);
+}
+tbody td tr:nth-child(even){
+    background-color: aqua;
+}
+.cat{
+    background-color: blue;
+    color: white;
+}

@@ -1,0 +1,13 @@
+import tkinter as tk
+root = tk.Tk()
+root.geometry("600x600")
+frame = tk.Frame()
+frame.master.title("Belove")
+canvas = tk.Canvas(frame)
+canvas.create_oval(50, 50, 5, 100, fill="#000000")
+canvas.create_oval(100, 50, 55, 100, fill="#00ff00")
+canvas.create_oval(150, 50, 105, 100, fill="#0000ff")
+canvas.create_oval(200, 50, 155, 100, fill="#ff0000")
+canvas.pack(expand=True, fill="both")
+frame.pack(expand=True, fill="both")
+root.mainloop()

@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.charset {
+    width: 40%;
+    margin-left: 20%;
+    margin-top: 5vh;
+    border: 2px solid black;
+    background-color: rgb(16, 255, 36);
+}
+
+input {
+    height: 30px;
+    width: 45%;
+}
+
+.text1 input {
+    border: none;
+    border-top: 3px solid rgb(255, 15, 143);
+}
+
+.text1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.text2 input {
+    width: 100%;
+}
+
+.text2 {
+    padding: 10px;
+}
+
+.text3 input {
+    width: 100%;
+}
+
+.text3 {
+    padding: 10px;
+}
+
+.text4 {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.texts {
+    display: flex;
+    align-items: center;
+}
+
+.text5 button {
+    width: 100%;
+    background-color: blue;
+}
+
+.text5 {
+    display: flex;
+    padding: 10px;
+}
+
+.text6 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.text7 {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+button {
+    width: 70%;
+    height: 5vh;
+    color: white;
+}
+
+.love {
+    display: flex;
+    align-items: center;
+}
+
+.loves {
+    display: flex;
+    align-items: center;
+}
+
+.lovesr {
+    display: flex;
+    align-items: center;
+}
+
+.lovely {
+    display: flex;
+    align-items: center;
+}
+
+.love button {
+    border: none;
+    background-color: rgb(224, 6, 9);
+}
+
+.loves button {
+    border: none;
+    background-color: blue;
+}
+
+.lovesr button {
+    border: none;
+    background-color: blue;
+}
+
+.lovely button {
+    border: none;
+    background-color: black;
+}
+
+.lovelys {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40%;
+    width: 100%;
+}
+
+.text8 {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+    font-size: 10px;
+}
+
+span {
+    color: rgb(255, 0, 187);
+}

@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.PN {
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 30%;
+
+}
+
+.PNC {
+    width: 50%;
+    background-color: rgb(98, 98, 231);
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+    color: white;
+    padding-top: 30px;
+    border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+    
+}
+.Cambodia{
+    width: 30%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.Login {
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+img {
+    border-radius: 50%;
+    width: 40%;
+    height: 40%;
+}
+
+h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.Usename {
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    border: none;
+    border-radius: 1px;
+}
+
+input[type=text] {
+    height: 4vh;
+    width: 90%;
+}
+
+.Password {
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    border: none;
+    border-radius: 1px;
+}
+
+.Remernber {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.oginsr {
+    margin-top: 10px;
+    margin-left: 60px;
+    display: flex;
+    border: none;
+}
+
+input[type=submit] {
+    width: 70%;
+    height: 4vh;
+    border-radius: 4px;
+}
+
+.account {
+    margin-left: 10px;
+}
+
+span {
+    color: blue;
+}
+
+input[type=text] {
+    border: none;
+    border-bottom: 1px solid black;
+}

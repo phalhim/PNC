@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 50%;
+    height: 30vh;
+    display: grid;
+    background-color: #21f321;
+    margin: auto;
+    margin-top: 30px;
+    grid-template-areas:
+        'header header header'
+        'menu main main'
+        'menu right footer'
+        'menu left left'
+
+
+
+    ;
+}
+
+.container div {
+    border: 1px solid black;
+    background-color: palevioletred;
+}
+
+.header {
+    grid-area: header;
+}
+
+.menu {
+    grid-area: menu;
+
+}
+
+.main {
+    grid-area: main;
+}
+
+.left {
+    grid-area: left;
+}
+
+.right {
+    grid-area: right;
+}
+
+.footer {
+    grid-area: footer;
+}

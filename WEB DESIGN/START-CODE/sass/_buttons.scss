@@ -1,0 +1,36 @@
+.btn-primary,
+.btn-secondary,
+.btn-warning,
+.btn-success,
+.btn-dark,
+.btn-danger {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.btn-primary {
+    background: #0091ff;
+}
+
+.btn-secondary {
+    background: #a8a9aa;
+}
+
+.btn-warning {
+    background: #ffbb00;
+}
+
+.btn-success {
+    background: #0fc975;
+}
+
+.btn-dark {
+    background: #030303;
+}
+
+.btn-danger {
+    background: #e30a0a;
+}

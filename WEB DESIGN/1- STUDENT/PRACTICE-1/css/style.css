@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(232, 241, 234);
+}
+
+.Google {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+}
+
+.s {
+    color: blue;
+}
+
+.d {
+    color: red;
+}
+
+.f {
+    color: orange;
+}
+
+.g {
+    color: blue;
+}
+
+.h {
+    color: green;
+}
+
+.j {
+    color: red;
+}
+
+.left {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.left i {
+    margin: 15px;
+}
+
+.right {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+.right i {
+    margin: 15px;
+}
+
+.Icons {
+    background-color: rgb(204, 202, 210);
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    color: blue;
+    font-size: 20px;
+}
+
+.Icons i {
+    margin-left: 15px;
+}
+
+.group {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.calendar_today {
+    margin: 10px;
+    width: 15%;
+    height: 30vh;
+    border: 1px solid rgb(172, 164, 164);
+    margin-top: 40px;
+}
+
+.HTML {
+    background-color: rgb(91, 137, 216);
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.HTML1 {
+    background-color: rgb(244, 248, 248);
+    height: 55%;
+    font-size: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.HTML2 {
+    background-color: rgb(248, 248, 248);
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border: 1px solid rgb(172, 164, 164);
+}
+
+.HTML2 i {
+    margin: 10px;
+}
+
+.HTML3 {
+    background-color: rgb(244, 248, 248);
+    height: 55%;
+    font-size: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}

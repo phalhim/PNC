@@ -1,0 +1,29 @@
+body{
+  background-color: black;
+}
+div{
+  border-color: white;
+  background-color: white;
+  padding: 20px; px;
+  padding-bottom: 30px;
+  margin: 20px;
+  border-radius: 10px;
+}
+button{
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn-teal{
+  background-color: teal;
+  color: white;
+}
+.btn-orange{
+  background-color: orange;
+  color: white;
+}
+.btn-purple{
+  background-color: purple;
+  color: white;
+}
+
+ 

@@ -1,0 +1,19 @@
+.btn {
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.card {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+body {
+  background: #ffeeff;
+}
+
+.container {
+  font-size: 14px;
+}/*# sourceMappingURL=main.min.css.map */

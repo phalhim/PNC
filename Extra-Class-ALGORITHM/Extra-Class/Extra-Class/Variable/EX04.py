@@ -1,0 +1,2 @@
+text ="word"
+print(text)

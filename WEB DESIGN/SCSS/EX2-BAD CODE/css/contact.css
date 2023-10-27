@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.card-header {
+  text-transform: uppercase;
+  border-bottom: 1px solid #ccc;
+}
+
+nav {
+  background: #aa0c0c;
+}
+
+ul {
+  display: flex;
+}
+ul li {
+  padding: 15px;
+}
+ul li a {
+  color: #fff;
+  text-transform: uppercase;
+}/*# sourceMappingURL=contact.css.map */

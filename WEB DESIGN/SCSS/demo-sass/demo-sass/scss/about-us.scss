@@ -1,0 +1,63 @@
+@import "main";
+@import "components/card";
+header {
+    @include content-centered;
+    height: 20vh;
+    padding: 10px;
+    flex-direction: column;
+}
+
+header,
+.about-us-content {
+    margin: 20px 0px;
+}
+
+header h1 {
+    color: $primary-color;
+}
+
+.partners {
+    display: flex;
+    align-items: center;
+}
+
+.partners>img {
+    width: 75px;
+    margin: 10px 50px;
+}
+
+.about-us-container {
+    background: linear-gradient(to bottom,
+            $primary-color 0%,
+            $primary-color 50%,
+            $tertiary-color 50%,
+            $tertiary-color 100%);
+    padding: 0px 100px;
+    padding-bottom: 25px;
+}
+
+.about-us-content {
+    text-align: center;
+}
+
+header h1,
+.about-us-content h1 {
+    @include stardard-text;
+    color: $main-color;
+    margin: 10px;
+}
+
+.about-us-content p {
+    text-align: justify;
+}
+
+.group-services {
+    display: flex;
+    margin: 20px 150px;
+    justify-content: space-evenly;
+}
+
+.bg-image {
+    width: 100%;
+}
+

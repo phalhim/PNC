@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: palevioletred;
+}
+
+header {
+    background-color: palevioletred;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+.card {
+    display: grid;
+    gap: 30px;
+    padding-right: 30px;
+}
+.card h1 {
+    text-align: center;
+}
+

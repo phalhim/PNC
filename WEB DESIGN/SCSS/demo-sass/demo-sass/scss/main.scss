@@ -1,0 +1,16 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* scroll bar */
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+@import "components/navbar";
+@import "components/footer";
+@import "components/group-mixins";
+@import "components/variables";
